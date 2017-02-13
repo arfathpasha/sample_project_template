@@ -1,0 +1,4 @@
+This is some random input
+That we want to read in
+And write to another file
+With some changes

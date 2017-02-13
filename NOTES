@@ -1,0 +1,23 @@
+Show how to read and write to a shared volume.
+Show how to run the program from host and from inside the container
+Show how the i/o data can be view from host and container
+show how to run unit tests locally
+show how to run the tests on travis CI
+show how to run the tests on travis CI via docker build
+show how to run the tests on travis CI via docker build and using kb_sdk test
+
+
+Run program from host on host (must use virtual env for this in practice):
+> python simple_io.py
+
+Run program from host on container:
+
+View data from host on host:
+> more shared/output.txt
+
+
+Run program from container (on container):
+>
+
+View data from container (on container):
+>
