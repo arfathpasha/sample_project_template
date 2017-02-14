@@ -4,7 +4,7 @@ help:
 	@echo '    lint'
 	@echo '        Check style with flake8.'
 	@echo '    test'
-	@echo '        Run unit tests'
+	@echo '        Run unit tests. Must use -B option (make -B test)'
 	@echo '    run'
 	@echo '        Run the `my_project` service on your local machine.'
 	@echo '    docker-run'
