@@ -1,7 +1,8 @@
 [run]
 omit =
-    # omit anything in venv dir anywhere
+    # omit everything in venv dir anywhere
     */venv/*
+    */virtualenv/*
     # omit everything in test dir
     test/*
 
