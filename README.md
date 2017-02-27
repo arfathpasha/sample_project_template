@@ -1,5 +1,7 @@
 # sample_project_template
 
+This is a template repo that contains all the hooks needed for building, testing, continuous integration and coverage reporting. This template may be used for creating other repos/projects on github. 
+
 Build status:
 master:  [![Build Status](https://travis-ci.org/arfathpasha/sample_project_template.svg?branch=master)](https://travis-ci.org/arfathpasha/sample_project_template)
 
@@ -12,10 +14,10 @@ Code coverage: (master branch)
 
 Prerequisites:
 --------------
-python2.7
-Virtualenv
-pip
-docker
+python2.7 <br>
+Virtualenv <br>
+pip <br>
+docker <br>
 
 Usage:
 ------
