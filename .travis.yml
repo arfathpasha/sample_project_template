@@ -9,3 +9,6 @@ install:
 
 script:
     - make -B test
+    
+after_success:
+  coveralls
