@@ -15,6 +15,7 @@ clean:
 	@echo "removing python artifacts..."
 	find . -name '*.pyc' -exec rm --force {} +
 	find . -name '*.pyo' -exec rm --force {} +
+	find . -name '.coverage' -exec rm --force {} +
 	find . -name '*~' -exec rm --force  {} +
 
 	@echo "removing build artifacts..."
