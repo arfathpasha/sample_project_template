@@ -33,4 +33,5 @@ lint:
 
 test:
 	@echo "running unit tests..."
-	nosetests --tests=test/python --with-coverage --cover-html --cover-html-dir=docs/coverage
+	make clean
+	nosetests --tests=test/python --with-coverage --cover-branches --cover-html --cover-html-dir=docs/coverage
