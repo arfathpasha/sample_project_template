@@ -9,6 +9,7 @@ install:
 
 script:
     - make -B test
+    - coverage run --source=src test/python/test_simple_io.py
     
 after_success:
   coveralls

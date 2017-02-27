@@ -1,8 +1,10 @@
+import sys
+sys.path.insert(0, 'src/python')
 import os
 from nose import with_setup
 from nose.tools import assert_equals
 from nose.tools import assert_true
-from src.python.simple_io import cat, process, write, init
+from simple_io import cat, process, write, init
 
 
 INFILE = 'shared/input.txt'
