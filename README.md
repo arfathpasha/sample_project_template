@@ -1,6 +1,6 @@
 # sample_project_template
 
-This is a template repo that contains all the hooks needed for building, testing, continuous integration and coverage reporting. This template may be used for creating other repos/projects on github. 
+This is a template repo that contains all the hooks needed for building, testing, continuous integration and coverage reporting. This template may be used as a baseline for creating other repos/projects on github. 
 
 Build status:
 master:  [![Build Status](https://travis-ci.org/arfathpasha/sample_project_template.svg?branch=master)](https://travis-ci.org/arfathpasha/sample_project_template)
