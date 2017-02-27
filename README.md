@@ -15,6 +15,9 @@ $ cd ../<YOUR_NEW_REPO_NAME>
 
 Then follow instructions for [Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) 
 
+Project Status:
+--------------
+
 Build status:
 master:  [![Build Status](https://travis-ci.org/arfathpasha/sample_project_template.svg?branch=master)](https://travis-ci.org/arfathpasha/sample_project_template)
 
