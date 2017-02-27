@@ -15,6 +15,8 @@ $ cd ../<YOUR_NEW_REPO_NAME>
 
 Then follow instructions for [Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) 
 
+Your new project should now be ready to make changes to the code. 
+
 Project Status:
 --------------
 
