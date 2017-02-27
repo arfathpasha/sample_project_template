@@ -35,7 +35,7 @@ def write(filename, content):
     file.close()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     print('initializing...')
     init()
 
