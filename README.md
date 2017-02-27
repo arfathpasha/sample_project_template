@@ -8,9 +8,7 @@ staging: [![Build Status](https://travis-ci.org/arfathpasha/sample_project_templ
 develop: [![Build Status](https://travis-ci.org/arfathpasha/sample_project_template.svg?branch=develop)](https://travis-ci.org/arfathpasha/sample_project_template)
 
 Code coverage: (master branch)
-[![Coverage Status](https://coveralls.io/repos/github/arfathpasha/sample_project_template
-/badge.svg?branch=master)](https://coveralls.io/github/arfathpasha/sample_project_template
-?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/arfathpasha/sample_project_template/badge.svg?branch=master)](https://coveralls.io/github/arfathpasha/sample_project_template?branch=master)
 
 Prerequisites:
 --------------
