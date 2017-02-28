@@ -1,6 +1,24 @@
 # sample_project_template
 
-This is a template repo that contains all the hooks needed for building, testing, continuous integration and coverage reporting. This template may be used for creating other repos/projects on github. 
+This is a template repo that contains all the hooks needed for building, testing, continuous integration and coverage reporting. This template may be used as a baseline for creating other repos/projects on github. 
+
+Here are the steps for creating a new repo with this template as a baseline. 
+```bash
+# Make a local copy of this repo
+$ git clone https://github.com/arfathpasha/sample_project_template.git <br>
+$ cd sample_project_template
+
+# Copy all files from the index to the location of your new repo 
+$ git checkout-index -a --prefix=../<YOUR_NEW_REPO_NAME>/
+$ cd ../<YOUR_NEW_REPO_NAME>
+```
+
+Then follow instructions for [Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) 
+
+Your new project should now be ready to make changes to the code. 
+
+Project Status:
+--------------
 
 Build status:
 master:  [![Build Status](https://travis-ci.org/arfathpasha/sample_project_template.svg?branch=master)](https://travis-ci.org/arfathpasha/sample_project_template)
