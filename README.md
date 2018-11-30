@@ -5,7 +5,7 @@ This is a template repo that contains all the hooks needed for building, testing
 Here are the steps for creating a new repo with this template as a baseline. 
 ```bash
 # Make a local copy of this repo
-$ git clone https://github.com/arfathpasha/sample_project_template.git <br>
+$ git clone https://github.com/arfathpasha/sample_project_template.git 
 $ cd sample_project_template
 
 # Copy all files from the index to the location of your new repo 
