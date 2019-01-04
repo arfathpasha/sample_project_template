@@ -4,9 +4,10 @@
 - show how to run unit tests locally
 - show how to run the tests on travis CI
 - show how to run the tests on travis CI via docker build
-- show how to run the tests on travis CI via docker build and using kb_sdk test
 - show how to run in user space and apply all security features from accessing root vulnerability in docker
-- show how to network into docker that is running a server process (flask) on a particular port
+- show how to network into a docker container that is running a server process (flask) on a particular port
+- show how to run docker siblings from docker container (with ability to share large files)
+- show how to use logging within container
 
 
 # Build the image
@@ -24,6 +25,9 @@
 
 # Run program from host on container
 > docker run -w /sample_io -v $PWD/shared:/sample_io/shared sample_io
+
+# Another more explicit way to run? [Needs fixing]
+> docker run -it --rm --name simple_io -w /sample_io -v $PWD/shared:/sample_io/shared python:2 python ./python/simple_io.py
 
 # View data from host on host:
 > more shared/output.txt
